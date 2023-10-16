@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mypham-portfolio/static/css/main.7f5ce4dd.css",
+    "main.js": "/mypham-portfolio/static/js/main.973081ea.js",
+    "static/media/profile.png": "/mypham-portfolio/static/media/profile.0d8a560d8bd379189e20.png",
+    "static/media/android.png": "/mypham-portfolio/static/media/android.1e1e2016202afff22cc8.png",
+    "static/media/github-icon.png": "/mypham-portfolio/static/media/github-icon.03a5e2860415984a7ff5.png",
+    "static/media/ui-design.png": "/mypham-portfolio/static/media/ui-design.baa2eca232508ffb1e69.png",
+    "static/media/logo.png": "/mypham-portfolio/static/media/logo.b4493abc7cd6f76841da.png",
+    "static/media/linkedin-icon.png": "/mypham-portfolio/static/media/linkedin-icon.aa56c826eb4d2223510e.png",
+    "static/media/website-design.png": "/mypham-portfolio/static/media/website-design.539e22ebc7ad0ff53805.png",
+    "static/media/app-design.png": "/mypham-portfolio/static/media/app-design.720afd0b20413cf39bce.png",
+    "index.html": "/mypham-portfolio/index.html",
+    "main.7f5ce4dd.css.map": "/mypham-portfolio/static/css/main.7f5ce4dd.css.map",
+    "main.973081ea.js.map": "/mypham-portfolio/static/js/main.973081ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f5ce4dd.css",
+    "static/js/main.973081ea.js"
+  ]
+}
