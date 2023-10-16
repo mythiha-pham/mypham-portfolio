@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Health Bestie App",
+      "imageSrc": "health-bestie.png",
+      "description": "An app helps users lead a healthier lifestyle. Nutrition and sleep are crucial for well-being and health.",
+      "skills": ["Java"],
+      "source": "https://github.com/Android-Projekte-VHB/vhb-android-ss2021--healthbestie-38"
+    },
+    {
+      "title": "Sudoku-Solver",
+      "imageSrc": "sudoku.png",
+      "description": "A program that automatically solves Sudoku puzzles, ensuring that all rows, columns, and subgrids contain all the numbers from 1 to 9 without repetition.",
+      "skills": ["C++"],
+      "source": "https://github.com/mythiha-pham/Abschlussprojekt---Sudoku-Solver"
+    },
+    {
+      "title": "You-vs-Will Game",
+      "imageSrc": "you-vs-will.png",
+      "description": "How many unique words that William Shakespeare used to write 'Romeo and Juliet' can you remember in one minute?",
+      "skills": ["JavaScript", "HTML", "CSS"],
+      "source": "https://github.com/MME-Aufgaben-im-Sommer-2022/u01--team-fred-brooks"
+    },
+    {
+        "title": "Video Assistant",
+        "imageSrc": "video-assistant.png",
+        "description": "A basic website program designed to enhance videos.",
+        "skills": ["JavaScript", "HTML", "CSS"],
+        "source": "https://github.com/MME-Aufgaben-im-Sommer-2022/u02-team-douglas-crockford"
+    }
+  ]

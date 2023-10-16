@@ -1,0 +1,88 @@
+#about {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.aboutTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.aboutDesc {
+    max-width: 50rem;
+    padding: 0 2rem;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+
+}
+
+.aboutBars {
+    margin: 1rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+    background: rgba(50, 50, 50, 0.3);
+    border-radius: 0.5rem;
+}
+
+.aboutBar {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(
+        90deg,
+        rgba(228,1,121, 0.42) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.aboutBar:hover {
+    background-size: 100% 100%;
+}
+
+.aboutBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.aboutBarText>p {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+@media screen and (max-width:720px){
+    .aboutBarText {
+        font-size: 2vw;
+    }   
+}
+
+@media screen and (max-width:480px){
+    .aboutBarText {
+        font-size: 3vw;
+    }
+    .aboutBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    .aboutBarText>h2 {
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,105 @@
+#projects {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.projectsTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectsDesc {
+    max-width: 50rem;
+    padding: 0 2rem;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.projectCards {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background: rgba(50, 50, 50, 0.5);
+    padding: 1rem 1.5rem;
+    max-width: 21rem;
+    align-items: center;
+
+    transition: transform 0.3s;
+}
+
+.projectCard:hover {
+    transform: translateY(-5px);
+    background-image: linear-gradient(
+        180deg,
+        rgba(228,1,121, 0.42) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.projectImg {
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.projectCardTitle {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.projectCardDesc {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+.projectSkills {
+    width: 100%;
+    margin-top: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 0.75rem;
+    font-weight: 300;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.projectSkill {
+    background: rgb(75, 75, 75);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+.projectLinkContainer {
+    margin-top: 0.5rem;
+}
+
+.projectLink {
+    font-size: 0.75rem;
+    color: #e40179;
+}

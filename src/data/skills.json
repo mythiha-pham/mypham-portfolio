@@ -1,0 +1,42 @@
+[
+    {
+      "title": "Java",
+      "imageSrc": "java.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "python.png"
+    },
+    {
+      "title": "C/C++",
+      "imageSrc": "c.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "javascript.png"
+    },
+    {
+      "title": "HTML",
+      "imageSrc": "html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "react.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "node.png"
+    },
+    {
+      "title": "Android Studio",
+      "imageSrc": "android.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "figma.png"
+    }
+]
